@@ -1,0 +1,110 @@
+
+body {
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden; 
+    background-image: url("login background.jpg");
+    background-size:contain;
+    font-family: 'Arial', sans-serif;
+    /* background-position: left; */
+    
+    
+ 
+    
+}
+.main{
+    position: relative;
+    background-color: whitesmoke;
+    color: black;
+    height: 500vh;
+    width: 600px;
+    bottom: 330px;
+    transform: rotate(25deg);
+    
+}
+
+.login{
+    position: absolute;
+    top: 550px;
+
+    transform: rotate(-25deg);
+    color: black;
+    text-align: center; 
+}
+.login h1{
+    position: absolute;
+    left: 280px;
+  
+}
+.login h1::after{
+    content: '';
+      
+    width: 50px;
+    border-bottom: 3px solid red;
+    
+    border-width: 5px;
+    
+    position: absolute;
+    left: 30%;
+    bottom: -3px;
+}
+.form{
+    position: absolute;
+    top:600px;
+    left: 100px;
+    transform: rotate(-25deg);
+}
+.input-username {
+    position: absolute;
+    left: 90px;
+    top:10px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    padding: 5px;
+    margin: 10px;
+    width:250px;
+    
+}
+.input-username::placeholder {
+    font-size: 18px;
+}
+.input-password {
+    position: absolute;
+    left: 90px;
+    top:65px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    padding: 5px;
+    margin: 10px;
+    width:250px;
+} 
+.input-password::placeholder {
+    font-size: 18px;
+}
+.forgot{
+    font-size: 14.5px;
+    color: blue;
+    position: absolute;
+    top: 109px;
+    left: 102px;
+    white-space: nowrap
+}
+.btn{
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    border-radius: 50px;
+    padding: 12px 40px;
+    background-color: rgb(60, 60, 255);
+    color: white;
+    border-style: none;
+    font-size: 16px
+}
+.btn:hover{
+    cursor: pointer;
+}
